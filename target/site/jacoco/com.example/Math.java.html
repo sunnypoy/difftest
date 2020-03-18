@@ -9,7 +9,12 @@
 //test
 <span class="fc" id="L10">public class Math {</span>
     public int multiply(int a,int b){
-<span class=fc-diff-diff-diff-diff-diff-diff id="L12">        return a*b+a;</span>
+<span class="pc bpc" id="L12" title="1 of 2 branches missed.">        if(a&gt;b){</span>
+<span class="fc" id="L13">            return a*b;</span>
+        }
+        else {
+<span class="nc" id="L16">            return a/b;</span>
+        }
     }
 
 }

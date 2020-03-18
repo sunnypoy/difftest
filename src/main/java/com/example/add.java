@@ -1,7 +1,7 @@
 package com.example;
 
 public class add {
-    public int multiply(int a,int b){
+    public int addtion(int a,int b){
         return a+b;
     }
 }
