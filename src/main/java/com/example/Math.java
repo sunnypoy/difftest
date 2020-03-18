@@ -9,7 +9,7 @@ package com.example;
 //test
 public class Math {
     public int multiply(int a,int b){
-        return a*b;
+        return a*b+a;
     }
 
 }
