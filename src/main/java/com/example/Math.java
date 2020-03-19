@@ -16,5 +16,12 @@ public class Math {
             return a/b;
         }
     }
+    public int te(int x,int y) {
+        if (x == y) {
+            return x * y;
+        } else {
+            return x / y;
+        }
+    }
 
 }
